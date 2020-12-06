@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+  }
+
+/* Bolding h2 tags */
+h2 {
+    font-weight: bold;
+    color: rgb(4, 4, 12);
+}
+
+/*Creating thicker hr line */
+hr.line {
+    border:  1px solid black;
+}
+
+/* Styling for the index page*/
+#contact {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 80px;
+    background-color: darkgray;
+}
+
+/* Styling for the index page*/
+#index {
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 80px;
+    background-color: darkgray;
+}
+
+/*Positioning for the picture on the Index page*/
+.sedona {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+
+/*Text layout for the About me section*/
+.about-me {
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+/*Portfolio page styling*/
+#portfolio {
+    padding-top: 10px;
+    padding-bottom: 50px;
+    margin-bottom: 80px;
+    background-color: darkgray;
+    width: auto;
+}
+
+/*Adding in padding on the left for all row classes*/
+.row {
+    padding-left: 20px;
+}
+
+/*Picture positioning on portfolio page*/
+.photo1 {
+    padding-right: 10px;
+    padding-bottom: 10px;
+    float: left;
+}
+
+/*Position & styling for the footer*/
+.footer {
+    position: fixed;
+    height: 5%;
+    left: 0%;
+    bottom: 0%;
+    width: 100%;
+    background-color: darkgray;
+    color: gainsboro;
+    text-align: center;
+}
+
+/*media query to fix elements when resized to 450px and below */
+@media screen and (max-width: 450px) {
+    body {
+      background-color: darkgray;
+      width: auto;
+    }
+    
+    /*Setting wrapper width*/
+    .wrapper {
+      width: 100%;
+    }
+
+    /*Repositioning of the contact form*/
+    #contact {
+        padding-right: 15px;
+        margin-right: 10%;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        margin-bottom: 80px;
+        background-color: darkgray;
+        width: auto;
+    }
+
+    /*Repositioning of the contact form*/
+    #index {
+        padding-right: 15px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        margin-bottom: 80px;
+        background-color: darkgray;
+    }
+    
+    /*Floating bio right to clear the picture*/
+    .bio {
+        float: right;
+    }
+}
