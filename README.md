@@ -9,4 +9,4 @@ The layout for the 400 sized screen is different than the other 2.
 
 Used bootstrap to try and reduce the number of need media queries.
 
-[Link to the deployed application](https://https://duffieldml.github.io/Responisive-Portfolio/)
+[Link to the deployed application](https://duffieldml.github.io/Mobile-Responsive-Portfolio/)
