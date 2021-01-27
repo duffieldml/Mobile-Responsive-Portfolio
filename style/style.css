@@ -57,6 +57,7 @@ hr.line {
 /*Adding in padding on the left for all row classes*/
 .row {
     padding-left: 20px;
+    padding-right: 20px;
 }
 
 /*Picture positioning on portfolio page*/
