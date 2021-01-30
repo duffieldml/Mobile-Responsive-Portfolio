@@ -37,7 +37,9 @@ hr.line {
     padding-left: 20px;
     padding-top: 20px;
     padding-bottom: 30%;
-    background-color: rgb(112, 110, 139);
+    color: white;
+    text-emphasis: bold;
+    /* background-color: rgb(112, 110, 139); */
 }
 
 /*Text layout for the About me section*/
