@@ -18,20 +18,22 @@ hr.line {
 #contact {
     padding-left: 20px;
     padding-top: 20px;
-    padding-bottom: 20px;
-    margin-bottom: 80px;
-    background-color: darkgray;
-    margin-bottom: 20%;
-    opacity: 95%;
+    padding-bottom: 30%;
+    /* margin-bottom: 80px; */
+    /* background-color: darkgray; */
+    /* margin-bottom: 30%; */
+    /* opacity: 95%; */
 }
+
 
 /* Styling for the index page*/
 #index {
     padding-right: 15px;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    margin-bottom: 80px;
-    background-color: darkgray;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    margin-top: 5%;
+    opacity: 90%;
+    background-color: rgb(112, 110, 139);
 }
 
 /*Text layout for the About me section*/
@@ -78,7 +80,7 @@ body {
 }
 
 .navbar .navbar-expand-sm .navbar-dark .bg-dark {
-    background-color: rgb(112, 110, 139);
+    background-color: (rgba(216, 214, 214, 0.692));
 }
 
 
@@ -95,13 +97,13 @@ body {
     left: 0%;
     bottom: 0%;
     width: 100%;
-    background-color: darkgray;
+    background-color:rgba(17, 6, 34, 0.658);
     color: gainsboro;
     text-align: center;
 }
 
 .hero-img {
-    background-image: linear-gradient(rgba(148, 147, 147, 0.692), rgba(17, 6, 34, 0.658)),url("cool-background.png");
+    background-image: linear-gradient(rgba(216, 214, 214, 0.692), rgba(17, 6, 34, 0.658)),url("cool-background.png");
     height: 100%;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -129,7 +131,6 @@ body {
         padding-top: 10px;
         padding-bottom: 20px;
         margin-bottom: 80px;
-        background-color: darkgray;
         width: auto;
     }
 
