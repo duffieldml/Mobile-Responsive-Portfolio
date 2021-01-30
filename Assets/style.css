@@ -35,18 +35,22 @@ hr.line {
     margin-bottom: 10%; */
     margin-top: 5%;
     padding-left: 20px;
+    padding-right: 20px;
     padding-top: 20px;
     padding-bottom: 30%;
-    color: white;
+    color: black;
     text-emphasis: bold;
-    /* background-color: rgb(112, 110, 139); */
+    background-color: rgb(112, 110, 139);
+    background: transparent;
+    opacity: 90%;
+    /* box-sizing: initial; */
 }
 
 /*Text layout for the About me section*/
 .about-me {
     text-align: justify;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 /* .wrapper {
@@ -108,6 +112,12 @@ body {
     background-position: center;
     background-size: cover;
     /* margin-bottom: -80px; */
+}
+
+.me {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 15px;
 }
 
 /*media query to fix elements when resized to 450px and below */
