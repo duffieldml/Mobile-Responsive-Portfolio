@@ -18,18 +18,12 @@ hr.line {
 #contact {
     padding-left: 20px;
     padding-right: 20px;
-    /* padding-top: 2%; */
     padding-bottom: 30%;
-    /* margin-bottom: 80px; */
-    /* background-color: darkgray; */
-    /* margin-bottom: 30%; */
-    /* opacity: 95%; */
 }
 
 
 /* Styling for the index page*/
 #index {
-    /* margin-top: 5%; */
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 2%;
@@ -39,7 +33,6 @@ hr.line {
     background-color: rgb(112, 110, 139);
     background: transparent;
     opacity: 90%;
-    /* box-sizing: initial; */
 }
 
 /*Text layout for the About me section*/
@@ -48,10 +41,6 @@ hr.line {
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
 }
-
-/* .wrapper {
-    height: 100%;
-} */
 
 body {
     resize: both;
@@ -76,11 +65,6 @@ body {
     margin-bottom: 20%;
     opacity: 95%;
 }
-
-/* .navbar .navbar-expand-sm .navbar-dark .bg-dark {
-    background-color: (rgba(216, 214, 214, 0.692));
-} */
-
 
 .card {
     opacity: 500%;
@@ -107,7 +91,6 @@ body {
     background-attachment: scroll;
     background-position: center;
     background-size: cover;
-    /* margin-bottom: -80px; */
 }
 
 .me {
